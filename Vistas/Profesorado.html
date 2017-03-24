@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="es">
+    <head>
+        <title>Inicio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/estilo.css" title="style" />
+        <script type="text/javascript" src="../JavaScript/java.js"></script>
+    </head>
+    <body onload="cargar();">
+        <header>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><p id="profesor">Profesor</p>
+                    <ul>
+                        <li><p id="amon">Amonestar</p></li>
+                        <li><p id="exp">Expulsar</p></li>
+                    </ul>
+                </li>
+                <li><p id="eDirectivo">Profesor</p>
+                    <ul id="ulDirec">
+                        <li><p id="Bosancionar">Sancionar</p></li>
+                        <li><p id="Boalaprox">Control de fechas</p></li>
+                        <li><p id="Bolistar">Listar</p>
+                            <ul id="ullistar">
+                                <li><p id="listar01">Por alumno</p></li>
+                                <li><p id="listar04">Por fechas</p></li>
+                                <li><p id="listar02">Por grupo</p></li>
+                                <li><p id="listar03">Por profesor</p></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><p>Usuario: <span id="prof"></span></p>
+                    <ul>
+                        <li><p id="desconectar">Desconectar</p></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <article id="contenido">
+            <section id="amonestacion">
+                <div id="padre"></div>
+                <div id="exclusivo"></div>
+                <div id="barracookie">
+                    <div class="contenido" >
+                        Utilizamos cookies propias y de terceros para mejorar nuestros servicios y mostrarle publicidad relacionada con sus preferencias mediante el análisis de sus hábitos de navegación.
+                        <br>Si continua navegando, consideramos que acepta su uso.
+                        <a href="javascript: aceptacionCookie();" class="ok"><b>OK</b></a> | 
+                        <a href="https://www.boe.es/boe/dias/2012/03/31/pdfs/BOE-A-2012-4442.pdf" target="_blank" class="info">Más información</a>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <footer></footer>
+    </body>
+</html>

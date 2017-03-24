@@ -1,0 +1,415 @@
+*{
+    font-family: Verdana, sans-serif, 'arial';
+    font-size: 15px; 
+}
+body{
+    margin: 0;
+    color: white;
+    background-color: #eee; 
+}
+#index{
+    color: black;
+}
+header{
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    background: url("../Imagenes/cabecera.jpg");
+    background-size: cover;
+    max-width: 1000px;
+}
+.menu{
+    padding-top: 15px;
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul, ol {
+    list-style:none;
+}
+.menu > li {
+    width: 33%;
+    float: left;
+}
+.menu li p {
+    cursor: pointer;
+    margin: 0;
+    text-align: center;
+    background-color: #272727;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display:  block;
+}
+.menu li p:hover {
+    background-color: #5e5e5e;
+}
+.menu li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.menu li:hover > ul {
+    display: block;
+}
+.menu li ul li{
+    width: 150px;
+}
+.menu li ul li p{
+    text-align: left;
+    position: relative;
+}
+#contenido{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 950px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: #8e8e8e;
+}
+#padre{
+    width: 75%;
+    margin: 0 auto;
+}
+#radios{
+    padding-left: 10px;
+}
+#alumnosSele{
+    width: 150px;
+    margin-left: 350px;
+    margin-top: -77px;
+}
+#alumnos{
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+}
+#almacenAlumno{
+    overflow: auto;
+    width: 100%;
+    max-height: 50px;
+}
+.arreglarTaman{
+    display: inline-block;
+    width: 30%;
+    border: 1px solid black;
+}
+#contenedor{
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+#cajonB{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+button{
+    padding: 5px;
+    width: 105px;
+}
+#salida{
+    margin-top: 0;
+    color: white;
+}
+#exclusivo{
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+#exc{
+    padding: 100px;
+}
+textarea{
+    width: 100%;
+    height: 25px;
+    resize: none;
+}
+#amonExpul{
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+}
+#amonExpulContenido{
+    margin-top: 15px;
+    border: 2px solid white;
+    overflow: auto;
+    width: 850px;
+    height: 285px;
+    margin-left: -80px;
+}
+#amonExpulContenidoS{
+    margin-top: 15px;
+    border: 2px solid white;
+    overflow: auto;
+    width: 850px;
+    height: 275px;
+    margin-left: -80px;
+}
+#amonExpulContenidoA{
+    margin-top: 15px;
+    border: 2px solid white;
+    overflow: auto;
+    width: 850px;
+    height: 200px;
+    margin-left: -80px;
+}
+#amonExpulContenidoLA{
+    margin-top: 15px;
+    border: 2px solid white;
+    overflow: auto;
+    width: 850px;
+    height: 75px;
+    margin-left: -80px;
+}
+#amonExpulContenidoL{
+    margin-top: 5px;
+    border: 2px solid white;
+    overflow: auto;
+    width: 850px;
+    height: 200px;
+    margin-left: -80px;
+}
+td{
+    text-align: left;
+}
+#sancionCont{
+    width: 100%;
+    margin-top: 30px;
+}
+#sancionar{
+    margin-left: 275px;
+}
+#tablaDatos td:first-child{
+    text-align: left;
+}
+#tablaDatos td{
+    text-align: center;
+}
+#tablaDatos{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+#tablaDatos th, #tablaDatos td{
+    border: 1px solid white;
+}
+#tablaDatos th:first-child{
+    width: 200px;
+}
+#tablaDatos th:nth-child(2){
+    width: 45px;
+}
+#tablaDatos th:nth-child(3){
+    width: 95px;
+}
+#tablaDatos th:nth-child(4){
+    width: 100px;
+}
+#tablaDatos th:nth-child(5){
+    width: 50px;
+}
+#tablaDatos th:nth-child(6){
+    width: 50px;
+}
+#tablaDatos th:nth-child(7){
+    width: 50px;
+}
+#tablaDatos button{
+    width: 50px;
+    padding: 2px;
+}
+.tLAC{
+    width: 100%;
+    border-collapse: collapse;
+}
+.tLAC th:nth-child(2){
+    width: 95px;
+}
+.tLAC th, .tLAC td{
+    border: 1px solid white;
+}
+table td, table th, table tr{
+    padding: 5px;
+}
+input, select{
+    cursor: pointer;
+    padding: 5px;
+    font-size: 12px;
+}
+option{
+    font-size: 12px;
+}
+input[type=date]{
+    width: 150px;
+}
+#asignaturas{
+    width: 250px;
+}
+select{
+    width: 150px;
+}
+#motivo{
+    width: 100%;
+}
+#barracookie {
+    position:fixed;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    padding-bottom:20px;
+    width:100%;
+    text-align:center;
+    min-height:40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#fff;
+    z-index:99999;
+}
+.contenido {
+    width:100%;
+    position:absolute;
+    padding-left:5px;
+    font-family:verdana;
+    font-size:12px;
+    top:30%;
+}
+
+.contenido a.ok {
+    padding: 4px;
+    color: #00ff2e;
+    text-decoration: none;
+}
+
+.contenido a.info {
+    padding-left: 5px;
+    text-decoration: none;
+    color: #cccccc;
+}
+#botonCorreo{
+    margin-top: 50px; 
+    margin-left: 275px;
+}
+#tablaListar{
+    text-align: center;
+}
+#tablaListar th:first-child{
+    width: 275px;
+}
+#tablaListar td{
+    text-align: center;
+}
+#tablaListar td:first-child{
+    text-align: left;
+}
+#listarAlum{
+    margin-top: 5px;
+    width: 100%;
+    height: 100px;
+}
+#l1{
+    margin: 0;
+    border-collapse: collapse;
+}
+#l1 td{
+    text-align: left;
+    width: 225px;
+    height: 25px;
+    border: 1px solid white;
+}
+#l1 th{
+    text-align: left;
+    width: 100px;
+    height: 25px;
+    border: 1px solid white;
+}
+.tLAC td:first-child{
+    width: 425px;
+}
+#ulDirec, #ullistar{
+    visibility: hidden;
+}
+#tla2{
+    width: 100%;
+    height: 75px;
+    border-collapse: collapse;
+}
+#tla2 th{
+    border: 1px solid white;
+    width: 25%;
+}
+#buLA2{
+    padding: 0;
+    margin-left: 275px;
+}
+#buLA3{
+    padding: 0;
+    margin-top: 182px;
+    margin-left: 275px;
+}
+#buLA4{
+    padding: 0;
+    margin-top: 40px;
+    margin-left: 275px;
+}
+#tablaDatosS{
+    border-collapse: collapse;
+}
+#tablaDatosS th, #tablaDatosS td{
+    border: 1px solid white;
+}
+#tablaDatosS th:nth-child(4){
+    width: 95px;
+}
+#tLIP{
+    border-collapse: collapse;
+}
+#tLIP tr{
+    border: 1px solid white;
+}
+#tLIP td{
+    text-align: center;
+}
+#tLIP td:first-child{
+    text-align: left;
+    width: 400px;
+}
+#tLIP td:nth-child(2){
+    text-align: left;
+    width: 150px;
+}
+#tLIP td:nth-child(3){
+    text-align: left;
+}
+#tablaListar tr td button{
+    padding: 2px;
+}
+#but, #but14{
+    margin-left: 15px;
+}
+#label12{
+    margin-left: 30px;
+}
+#h1tr{
+    display: inline;
+}
+#tLIA2{
+    width: 100%;
+    border-collapse: collapse;
+}
+#tLIA2 th, #tLIA2 td{
+    border: 1px solid white;
+}
+#tLIA2 th:nth-child(2){
+    width: 95px;
+}
+#tLIA2 th:nth-child(5){
+    width: 85px;
+}
+#tLIA2 th:nth-child(6){
+    width: 85px;
+}
+button{
+    cursor: pointer;
+}
